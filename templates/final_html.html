@@ -1,0 +1,50 @@
+  {% block stylesheet %}
+
+
+
+  <link rel="stylesheet" id="elementor-icons-css" href="{{ url_for('static', filename='elementor-icons.min.css') }}" media="all">
+  <link rel="stylesheet" id="elementor-animations-css" href="{{ url_for('static', filename='animations.min.css') }}" media="all">
+  <link rel="stylesheet" id="elementor-frontend-css" href="{{ url_for('static', filename='frontend.min(1).css') }}" media="all">
+  <link rel="stylesheet" id="elementor-post-41-css" href="{{ url_for('static', filename='post-41.css') }}" media="all">
+  <link rel="stylesheet" id="elementor-pro-css" href="{{ url_for('static', filename='frontend.min(2).css') }}" media="all">
+  <link rel="stylesheet" id="elementor-global-css" href="{{ url_for('static', filename='global.css') }}" media="all">
+  <link rel="stylesheet" id="elementor-post-492-css" href="{{ url_for('static', filename='post-492.css') }}" media="all">
+  <link rel="stylesheet" id="google-fonts-1-css" href="./repofast -_files/css(1)" media="all">
+  <link rel="stylesheet" id="elementor-icons-shared-0-css" href="{{ url_for('static', filename='fontawesome.min.css') }}" media="all">
+  <link rel="stylesheet" id="elementor-icons-fa-solid-css" href="{{ url_for('static', filename='solid.min.css') }}" media="all">
+  <link rel="stylesheet" id="elementor-icons-fa-brands-css" href="{{ url_for('static', filename='brands.min.css') }}" media="all">
+  <link rel="stylesheet" id="jetpack_css-css" href="{{ url_for('static', filename='jetpack.css') }}" media="all">
+
+{% endblock stylesheet %}
+
+<head>
+    <meta charset="UTF-8">
+    <title>Éxito</title>
+</head>
+<body>
+  <div class="elementor-element elementor-element-e213136 elementor-button-align-center elementor-widget elementor-widget-form" data-id="e213136" data-element_type="widget" data-settings="{&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;button_width&quot;:&quot;100&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}" data-widget_type="form.default">
+
+    <div class="elementor-widget-container">
+      <div class="heading">
+        <img src="{{ url_for('static', filename='pictures/Finish.gif') }}" alt="Dame esos 5!" class="img_thanks">
+        <h2 class="form__title" style="align-text:center;">¡Dame esos 5!</h2>
+        <h4 class="form__title" style="align-text:center;">Los resultados fueron actualizados con éxito</h2>
+
+
+          <div class="form">
+
+        <form action="/zip_report"  method="POST">
+          <button type="submit" class = "elementor-button elementor-size-sm">Descargar Reportes</button>
+        </form>
+        <h4>Otras acciones</h4>
+
+        <ul>
+          <li><a href="/dashboard" target="_blank">Generar Nuevos Reportes</a></li>
+        </ul>
+
+
+        </div>
+      </div>
+     </div>
+     </div>
+</body>
