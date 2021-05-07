@@ -8,13 +8,10 @@ Created on Thu May  6 23:00:24 2021
 from flask import Flask, render_template, request, redirect, url_for, session, Markup, flash, send_file, make_response
 import pandas as pd
 from datetime import date
-import matplotlib.pyplot as plt
-import matplotlib.image as mpimg
 import os, io, zipfile, time
 #import plotly_express as px
 import requests
 from utils import main
-import pandas as pd
 import docx
 import random
 import os
